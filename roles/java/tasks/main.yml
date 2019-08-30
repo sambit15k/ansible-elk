@@ -1,0 +1,9 @@
+---
+#
+# Installing Java
+#
+
+# Accept Oracle license
+
+- name: Install java(jdk & jre)
+  shell: apt-get install default-jre -y
